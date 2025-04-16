@@ -16,7 +16,7 @@ require("../controller/registerController.php");
 <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
     <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
         <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Register</h2>
-        <form action="" method="POST" class="space-y-5">
+        <form action="#" method="POST" class="space-y-5">
             <div>
                 <label class="block mb-1 text-gray-600">Name</label>
                 <input type="text" name="name" value="<?php if (isset($name)) {
@@ -54,7 +54,7 @@ require("../controller/registerController.php");
         <div class="flex justify-between items-center mt-4 text-sm">
             <a href="<?= BASE_URL; ?>public/login.php" class="text-purple-600 hover:underline">Back
                 to Sign In</a>
-            <a href="/forgot-password" class="text-purple-600 hover:underline">Forgot Password?</a>
+            <a href="<?= BASE_URL; ?>public/forgetPassword.php" class="text-purple-600 hover:underline">Forgot Password?</a>
         </div>
     </div>
 </body>
