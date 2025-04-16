@@ -1,5 +1,5 @@
 <?php
-define("BASE_URL","http://weblearn.test/authentication/");
+define("BASE_URL","http://authentication.test/");
 
 $dsn = "mysql:host=localhost;dbname=authentication;charset=utf8mb4";
 $username = "root";
